@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+color: #444;
+font-weight: normal;
+padding-top: 10px;
+letter-spacing: 1px;
+}
+
+h2{
+    font-size:30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 20px;
+    color: #777;
+    font-family: concert;
+}
+.wap{
+    padding-top: 120px;
+    width:90%;
+    margin: auto;
+}
+.bienvenidos{ 
+    margin-top: 50px;
+    text-align: center;
+    font-family: concert;
+}
+.contenedor-columnas{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.columnasx3{
+    width: 33.333%;
+    float: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+.columnasx3 img{
+    width: 100%;
+    height: 200px;
+}
+.columnasx3 h4{
+    font-size: 20px;
+    font-family: rale;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.columnasx3 h5{
+    font-weight: normal;
+    font-family: rale;
+    line-height: 1.5;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+
+.columnasx3 p{
+    color: #444;
+    font-size: 18px;
+    font-family: mont;
+    text-align: justify;
+}
+.columnasx3 i{
+    float: left;
+    color: green;
+    padding-right: 15px;
+}
+
+/*Columna 4 separada de 1,2 y 3*/
+.columnasx1{
+    /*clear both para generar un espacio al minimizar y que no se visualice mal la página*/
+    clear: both;
+    /*Espacio que ocupa de manera horizontal en la pantalla*/
+    width: 33.333%;
+    /*Elementos hacia la iquierda*/
+    float: left;
+    padding: 20px 20px;
+    /*Evitar que los elementos se salgan de sus limites*/
+    box-sizing: border-box;
+    /*Margen automatico*/
+    margin: auto;
+}
+.columnasx1 h4{
+    font-size: 20px;
+    font-family: rale;
+    margin-top: 20;
+    padding-bottom: 20px;
+}
+.columnasx1 p{
+    color: #444;
+    font-size: 18px;
+    font-family: mont;
+    text-align: justify;
+}
+.columnasx1 i{
+    float: left;
+    color: grey;
+    padding-right: 15px;
+    /*Transición de salida*/
+    transition: 1s;
+}
+.columnasx1 i:hover{
+    /*Transición de entrada*/
+    transition: 1s;
+    /*Rotar verticalmente*/
+    transform: rotate3d(1,0,0, 360deg);
+}
+
+/*Columnas 5 y 6 separadas de 4 porque al minimizar la pagina se genera un bug*/
+.columnasx{
+    width: 33.333%;
+    float: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.columnasx h4{ 
+    font-size: 20px;
+    font-family: rale;
+    margin-top: 20;
+    padding-bottom: 20px;
+}
+.columnasx p{
+    color: #444;
+    font-size: 18px;
+    font-family: mont;
+    text-align: justify;
+}
+.columnasx i{
+    float: left;
+    color: grey;
+    padding-right: 15px;
+}
+
+
+@font-face{
+    font-family: rale;
+    src: url(fuentes/Raleway-SemiBold.ttf);
+}
+@font-face{
+    font-family: mont;
+    src: url(fuentes/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: concert;
+    src: url(fuentes/ConcertOne-Regular.ttf);
+}
+
+/*animaciones*/
+@keyframes cambio{
+0%{margin-left: 0;}
+20%{margin-left: 0;}
+
+25%{margin-left: -11%;}
+45%{margin-left: -11%;}
+
+50%{margin-left: -22%;}
+70%{margin-left: -22%;}
+
+75%{margin-left: -33%;}
+100%{margin-left: -33%;}
+
+}
+
+@keyframes vueltas {
+    0% {
+        transform: rotate(0deg);
+   }
+    100% {
+        transform: rotate(360deg);
+   }
+}
+
+@keyframes slidein {
+    from {
+      margin-left:0%;
+      width:25%;
+    }
+    
+    to {
+     margin-left:20%;
+     width:25%;
+   }
+  }

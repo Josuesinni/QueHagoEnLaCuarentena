@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/banner.css">
+    <link rel="stylesheet" href="../css/secciones.css">
+
+    <script src="https://kit.fontawesome.com/bf22ceba0b.js" crossorigin="anonymous"></script>
+    <script src="../js/ocutar.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>
+                <a href=""><img src="../imagenes/logo.png" alt=""> </a>
+            </p>
+        </div>
+
+        <nav>
+            <div id="navBar" class="articulos">
+                <div class="acBar"><a href="../index.html">Inicio</a></div>
+                <div class="acBar"><a href="">Actividades</a></div>
+                <div class="acBar dropdown">
+                    <button onclick="remover2();" class="dropdown-btn" >Recomendaciones <i class="fas fa-caret-right" id="flecha"></i></button>
+                    <div class="dropdown-content">
+                        <a href="" class="lista">Videos</a>
+                        <a href="" class="lista">Juegos</a>
+                        <a href="" class="lista">Ser autodidacta</a>
+                    </div>
+                </div>
+                <div class="acBar"><a href="">Contacto</a></div>
+            </div>
+
+            <div id="navBarCel" class="nah">
+                <div>
+                    <button onclick="remover();" id="bar" class= "bton">
+                        <i class="fas fa-bars" id="barras"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="wap">
+        <section class="bienvenidos">
+            <h2>Actividades</h2>
+            <h3>En esta sección de la pagina pudes ver las actividades que he estado llevando a cabo durante esta cuarentena </h3>
+        </section>
+        <section class="contenedor-columnas">
+            <div class="columnasx3">
+                <img src="imagenes/contac/con-admin.jpg" alt="">
+                <h4>Ejercicio</h4>
+                <p>Aproveche esta cuarentena para ponerme en forma, 
+                    bueno al menos ejercitarme un poco</p>
+            </div>
+            <div class="columnasx3">
+                <img src="imagenes/contac/con-capacitacion.jpg" alt="">
+                <h4>Trabajar desde el PC</h4>
+                <p>Con la cuarentena hemos tenido que adaptar las clases 
+                    de forma online lo que a hecho que pase mas tiempo en
+                    la computadora, pero al menos tomarme descasos</p>
+            </div>
+            <div class="columnasx3">
+                <img src="imagenes/contac/con-titu.png" alt="">
+                <h4>Limpiar</h4>
+                <p>Si algo cabe resaltar de la cuarentena es que no a 
+                    habido un solo dia en el que no haya limpiado mi casa</p>
+            </div>
+        </section>
+        <section class="contenedor-columnas">
+            <div class="columnasx1">
+                <img src="imagenes/contac/con-admin.jpg" alt="">
+                <h4>Aprender a programar</h4>
+                <p>Una de las cosas que mas que a gustado de la cuarentena es
+                    que ahora puedo aprender de manera autodidacta y eso para mi
+                    es una gran ventaja pues ya conozco más lenguajes y 
+                    tengo practica al programar con estos
+                </p>
+            </div>
+            <div class="columnasx">
+                <img src="imagenes/contac/con-capacitacion.jpg" alt="">
+                <h4>Dibujar</h4>
+                <p>Si algo me prupuse esta cuarentena es mejorar mi dibujo, 
+                    ya que es algo que me apasiona y quiero que eso refleje 
+                    al terminarlos.
+                </p>
+            </div>
+            <div class="columnasx">
+                <img src="imagenes/contac/con-titu.png" alt="">
+                <h4>Titulación</h4>
+                <h5>Subtitulo</h5>
+                <p>Parrafo extendido </p>
+            </div>
+        </section>
+    </section>
+    
+    <script>
+        pcConfig();
+        celConfig();
+    </script>
+        <script src="../js/ocutar.js"></script>
+        <script
+        src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+        crossorigin="anonymous"></script>
+</body>
+</html>

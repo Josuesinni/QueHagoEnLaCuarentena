@@ -1,0 +1,45 @@
+#particles-js{
+    /*.. para regresar a la carpeta anterior*/
+    background: url(../imagenes/fondo.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+}
+
+.ancho-letra{
+    top: 200px;
+    position: absolute;
+    width: 100%;
+    /*background: rgba(0, 0, 0, .3);*/
+    text-align: center;
+    /*Importancia de los contenedores*/
+    z-index: 1;
+    
+}
+.letras-slider{
+ width: 80%;
+ margin: auto;
+}
+.letras-slider h1{
+    
+    padding-top: 15px;
+    color: white;
+    font-size: 50px;
+    font-family: titulo;
+}
+.letras-slider p{
+    font-family: parrafo;
+    color: white;
+    font-size: 20px;
+    padding-top: 35px;
+    text-align: center;
+}
+
+@font-face{
+    font-family: titulo;
+    src: url(fuentes/Handlee-Regular.ttf)
+}
+@font-face{
+    font-family: parrafo;
+    src: url(fuentes/Merienda-Regular.ttf);
+}

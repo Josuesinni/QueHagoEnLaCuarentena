@@ -1,0 +1,5 @@
+function animation(){
+    if(){
+        
+    }
+}
