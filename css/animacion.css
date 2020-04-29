@@ -1,0 +1,130 @@
+.acBar {
+    float: left;
+    margin: 10px;
+    padding-top: 0px;
+}
+
+body{
+    background: url(../imagenes/gymf.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+}
+
+.juego{
+    padding-top: 120px;
+    margin: auto;
+}
+.awe{
+    height: 50px;
+    text-align: center;
+    padding-top: 40px;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, .8);
+}
+.enc{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ab1 {
+    box-sizing:border-box;
+    display:block;
+    width:255px;        /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+    height:104px;       /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+    background: url(../imagenes/imgAcc/ab1.jpg);
+    overflow:hidden;
+}
+
+.ab2 {
+    box-sizing:border-box;
+    display:block;
+    width:260px;        /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+    height:104px;       /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+    background: url(../imagenes/imgAcc/ab2.jpg);
+    overflow:hidden;
+}
+.ejercicio{
+    height: 260px;
+    width: 320px;
+    background-color: white;
+    border: wheat;
+}
+.ejercicio p{
+    font-family: parrafo;
+    text-align: center;
+    padding-top: 10px;
+    margin: 5px;
+}
+.lag1 {
+    box-sizing:border-box;
+    display:block;
+    width:188px;        /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+    height:110px;       /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+    background: url(../imagenes/imgAcc/lag1.jpeg);
+    overflow:hidden;
+    margin-left: 50px;
+
+}
+
+.lag2 {
+    box-sizing:border-box;
+    display:block;
+    width:188px;        /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+    height:110px;   /*Ancho de la imagen nueva, aunque en este caso son iguales.*/
+    background: url(../imagenes/imgAcc/lag2.jpeg);
+    overflow:hidden;
+    margin-left: 50px;
+
+    
+}
+#num{
+    width: 257px;
+    height: 20px;
+    font-family: parrafo;
+    text-align: center;
+    margin-left: 25px;
+}
+#num2{
+    width: 257px;
+    height: 20px;
+    font-family: parrafo;
+    text-align: center;
+    margin-left: 25px;
+}
+.buton{
+    font-family: botones;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    text-transform: none;
+    background: #999;
+    border: #999;
+    border-radius: 5px;
+    height: 30px;
+    width: 260px;
+    margin-left: 25px;
+}
+.buton2{
+    font-family: botones;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    text-transform: none;
+    background: #999;
+    border: #999;
+    border-radius: 5px;
+    height: 30px;
+    width: 260px;
+    margin-left: 25px;
+}
+@font-face{
+    font-family: botones;
+    src: url(fuentes/Montserrat-Regular.ttf);
+}
+@font-face{
+    font-family: parrafo;
+    src: url(fuentes/Merienda-Regular.ttf);
+}

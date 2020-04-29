@@ -6,7 +6,6 @@ function remover(){
     else if(clase=="fas fa-times"){
       $("#barras").removeClass("fas fa-times").addClass("fas fa-bars");
     }
-  
 }
 function remover2(){
   var clase=$("#flecha").attr('class');

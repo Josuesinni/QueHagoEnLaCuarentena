@@ -1,10 +1,14 @@
 *{
     box-sizing: border-box;
 }
-
-
+body{
+     background: url(../imagenes/acti.jpg);
+     background-position: center;
+     background-attachment: contain;
+     background-size: cover;
+}
 h1, h2, h3, h4, h5, h6{
-color: #444;
+color: white;
 font-weight: normal;
 padding-top: 10px;
 letter-spacing: 1px;
@@ -19,13 +23,14 @@ h3{
     font-size: 20px;
     line-height: 1.5;
     padding-top: 20px;
-    color: #777;
+    color: white;
     font-family: concert;
 }
 .wap{
     padding-top: 120px;
     width:90%;
     margin: auto;
+    
 }
 .bienvenidos{ 
     margin-top: 50px;
@@ -63,15 +68,10 @@ h3{
 }
 
 .columnasx3 p{
-    color: #444;
+    color: white;
     font-size: 18px;
     font-family: mont;
     text-align: justify;
-}
-.columnasx3 i{
-    float: left;
-    color: green;
-    padding-right: 15px;
 }
 
 /*Columna 4 separada de 1,2 y 3*/
@@ -95,23 +95,10 @@ h3{
     padding-bottom: 20px;
 }
 .columnasx1 p{
-    color: #444;
+    color: white;
     font-size: 18px;
     font-family: mont;
     text-align: justify;
-}
-.columnasx1 i{
-    float: left;
-    color: grey;
-    padding-right: 15px;
-    /*Transición de salida*/
-    transition: 1s;
-}
-.columnasx1 i:hover{
-    /*Transición de entrada*/
-    transition: 1s;
-    /*Rotar verticalmente*/
-    transform: rotate3d(1,0,0, 360deg);
 }
 
 /*Columnas 5 y 6 separadas de 4 porque al minimizar la pagina se genera un bug*/
@@ -130,21 +117,17 @@ h3{
     padding-bottom: 20px;
 }
 .columnasx p{
-    color: #444;
+    color: white;
     font-size: 18px;
     font-family: mont;
     text-align: justify;
 }
-.columnasx i{
-    float: left;
-    color: grey;
-    padding-right: 15px;
-}
+
 
 
 @font-face{
     font-family: rale;
-    src: url(fuentes/Raleway-SemiBold.ttf);
+    src: url(fuentes/Merienda-Regular.ttf);
 }
 @font-face{
     font-family: mont;
@@ -152,42 +135,5 @@ h3{
 }
 @font-face{
     font-family: concert;
-    src: url(fuentes/ConcertOne-Regular.ttf);
+    src: url(fuentes/Merienda-Bold.ttf);
 }
-
-/*animaciones*/
-@keyframes cambio{
-0%{margin-left: 0;}
-20%{margin-left: 0;}
-
-25%{margin-left: -11%;}
-45%{margin-left: -11%;}
-
-50%{margin-left: -22%;}
-70%{margin-left: -22%;}
-
-75%{margin-left: -33%;}
-100%{margin-left: -33%;}
-
-}
-
-@keyframes vueltas {
-    0% {
-        transform: rotate(0deg);
-   }
-    100% {
-        transform: rotate(360deg);
-   }
-}
-
-@keyframes slidein {
-    from {
-      margin-left:0%;
-      width:25%;
-    }
-    
-    to {
-     margin-left:20%;
-     width:25%;
-   }
-  }

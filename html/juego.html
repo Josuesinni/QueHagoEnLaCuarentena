@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos</title>
+    <script src="../js/ocutar.js"></script>
+    <script src="../js/animacion.js"></script>
+    <script src="https://kit.fontawesome.com/bf22ceba0b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/banner.css">
+    <link rel="stylesheet" href="../css/animacion.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <link rel="Shortcut Icon" href="../favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <p>
+                <a href="../index.html"><img src="../imagenes/logo.png" alt=""> </a>
+            </p>
+        </div>
+
+        <nav>
+            <div id="navBar" class="articulos">
+                <div class="acBar"><a href="../index.html">Inicio</a></div>
+                <div class="acBar"><a href="actividades.html">Actividades</a></div>
+                <div class="acBar dropdown">
+                    <button onclick="remover2();" class="dropdown-btn" >Recomendaciones <i class="fas fa-caret-right" id="flecha"></i></button>
+                    <div class="dropdown-content">
+                        <a href="" class="lista">Videos</a>
+                        <a href="juego.html" class="lista">Juegos</a>
+                        <a href="" class="lista">Ser autodidacta</a>
+                    </div>
+                </div>
+                <div class="acBar"><a href="objetivo.html">Acerca de</a></div>
+            </div>
+        </nav>
+    </header>
+    <section class="juego">
+        
+        <h2 class="awe">Ayudalos a que se ejerciten ¡Vamos!</h2>
+        <div class="enc">
+            <section class="ejercicio">
+                <img src="" alt="" id="ej" class="ab1">
+                <button onclick="cambioImg();" id="buton" class="buton">Hacer abdominal</button>
+                <input type="text" value="0" disabled name="num" id="num">
+            </section>
+            <section class="ejercicio">
+                <p>
+                    Estos "juegos" fueron creados por mi estan creados con 2 imagenes cada uno, estos funcionan
+                    en base a su estado, ya que como se puede apreciar al presionar una vez el boton el contador 
+                    no se suma esto porque no lo toma como si hiciera el ejercicio completo y no es sino hasta que
+                     es presionado nuevamente y es llevado a su estado base que se contabiliza.
+                </p>
+            </section>
+            <section class="ejercicio">
+                <img src="" alt="" id="ej2" class="lag1" style="width: 200px;">
+                <button onclick="cambioImg2();" id="buton2" class="buton2">Hacer lagartija</button>
+                <input type="text" value="0" disabled name="num2" id="num2">
+            </section>
+        </div>
+    </section>
+    <div>
+       
+    </div>
+    <script src="../js/ocutar.js"></script>
+    <script src="../js/animacion.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.5.0.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+    crossorigin="anonymous"></script>
+</body>
+</html>
