@@ -66,3 +66,11 @@
         
     }
   }
+  function multi(){
+    var texto = document.getElementById("num").value;
+    var texto2 = document.getElementById("num2").value;    
+    var numero;
+    numero = parseInt(texto) + parseInt(texto2);
+    var inputNombre = document.getElementById("num3");
+    inputNombre.value = numero;
+  }

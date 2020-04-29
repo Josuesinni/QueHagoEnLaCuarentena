@@ -1,0 +1,53 @@
+.acBar{
+    float: left;
+    margin: 10px;
+    padding-top: 0px;
+}
+body{
+    background-image: url(../imagenes/autod.jpg);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+}
+.clase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.listarep{ 
+    background:rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 340px;
+    text-align: center;
+}
+.listarep p{
+    color: white;
+    font-family: parrafo;
+}
+.englob{
+    padding-top: 120px;
+}
+.englob h2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+    font-family: titulo;
+    background: rgba(0, 0, 0, 0.6);
+}
+.englob h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+    font-family: titulo;
+    background: rgba(0, 0, 0, 0.6);
+}
+@font-face{
+    font-family: titulo;
+    src: url(fuentes/Merienda-Bold.ttf);
+}
+@font-face{
+    font-family: parrafo;
+    src: url(fuentes/Merienda-Regular.ttf);
+}

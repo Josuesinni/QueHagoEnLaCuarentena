@@ -3,9 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Videos recomendados</title>
+    <script src="../js/ocutar.js"></script>
+    <script src="https://kit.fontawesome.com/bf22ceba0b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/banner.css">
+    <link rel="stylesheet" href="../css/vid.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <link rel="Shortcut Icon" href="../favicon.ico" type="image/x-icon" />
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <p>
+                <a href="../index.html"><img src="../imagenes/logo.png" alt=""> </a>
+            </p>
+        </div>
+
+        <nav>
+            <div id="navBar" class="articulos">
+                <div class="acBar"><a href="../index.html">Inicio</a></div>
+                <div class="acBar"><a href="actividades.html">Actividades</a></div>
+                <div class="acBar dropdown">
+                    <button onclick="remover2();" class="dropdown-btn" >Recomendaciones <i class="fas fa-caret-right" id="flecha"></i></button>
+                    <div class="dropdown-content">
+                        <a href="recomvid.html" class="lista">Videos</a>
+                        <a href="juego.html" class="lista">Juegos</a>
+                        <a href="listasaut.html" class="lista">Clases</a>
+                    </div>
+                </div>
+                <div class="acBar"><a href="objetivo.html">Acerca de</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="rec">
+        <h2>Musica</h2>
+        <div class="recomevid">
+            <div class="musica">
+                <iframe width="550" height="315" src="https://www.youtube.com/embed/videoseries?list=OLAK5uy_kAKsPgiqm3qCHvnItzku7YZEx-l6HiOn4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Autores: SIAMES</p>
+            </div>
+            <div class="musica">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=OLAK5uy_lSm1uzak9h6ch0cuF0v71-Eu9SSZBR-ao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Autor: Cuarteto de Nos</p>
+            </div>
+        </div>
+        <h2>Comedia</h2>
+        <div class="recomevid">
+            <div class="musica">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vCWs5O9iwPQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <h2>Comics Narrados</h2>
+        <div class="recomevid">
+            <div class="musica">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLmJ8-XEq_WyWL5Rh4odHIwcchA2LOEcsR" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="musica">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLK1NrVTLtw9BcW6iW7hlIs-nDxwBAOa1a" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <script src="../js/ocutar.js"></script>
+
 </body>
 </html>
